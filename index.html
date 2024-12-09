@@ -7,12 +7,24 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.webp" alt="Logo" class="logo-img">
+            </div>
+            <div class="nav-links">
+                <a href="./blog.html" class="btn">Blog</a>
+                <a href="mailto:akasha@margot-groupe.com" class="btn">Contact</a>
+            </div>
+        </div>
+    </nav>
+
     <!-- HEADER -->
     <header class="hero">
         <div class="container">
             <h1 class="main-title">Développeur Front-End & Pentester Freelance</h1>
             <p class="subtitle">Créer, sécuriser et perfectionner vos interfaces web</p>
-            <a href="#contact" class="btn">Me Contacter</a>
         </div>
     </header>
 
@@ -44,7 +56,7 @@
                 <div class="skill">
                     <h3>Pentesting</h3>
                     <ul>
-                        <li>Tests de sécurité sur applications web, et systèmes</li>
+                        <li>Tests de sécurité sur applications web</li>
                         <li>Burp Suite, OWASP ZAP</li>
                         <li>Analyse des vulnérabilités (OWASP Top 10)</li>
                     </ul>
@@ -69,19 +81,6 @@
                     <a href="#" class="btn">Voir le Projet</a>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Contactez-moi</h2>
-            <form action="#" method="POST" class="contact-form">
-                <input type="text" name="name" placeholder="Votre Nom" required>
-                <input type="email" name="email" placeholder="Votre Email" required>
-                <textarea name="message" rows="5" placeholder="Votre Message" required></textarea>
-                <button type="submit" class="btn">Envoyer</button>
-            </form>
         </div>
     </section>
 
