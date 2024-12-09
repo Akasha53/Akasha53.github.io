@@ -1,92 +1,192 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Akasha</title>
-    <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <img src="img/logo.png" alt="Logo" class="logo-img">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Akasha's blog</a>
             </div>
-            <div class="nav-links">
-                <a href="./index.html" class="btn">Blog</a>
-                <a href="mailto:akasha@margot-groupe.com" class="btn">Contact</a>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="blog.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="writeup.html">Writeups</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
     </nav>
 
-    <!-- HEADER -->
-    <header class="hero">
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background: linear-gradient(to right , rgba(0, 0, 0, 0.7), rgba(255, 0, 0, 0.7));"> 
         <div class="container">
-            <h1 class="main-title">Développeur Front-End & Pentester Freelance</h1>
-            <p class="subtitle">Créer, sécuriser et perfectionner vos interfaces web</p>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>Akasha's blog</h1>
+                        <hr class="small">
+                        <span class="subheading">A blog where I will share different news and updates.</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
-    <!-- ABOUT SECTION -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">Qui suis-je ?</h2>
-            <p class="about-text">
-                Passionné par le développement Front-End, je conçois des interfaces modernes, rapides et adaptées à vos besoins.
-                En parallèle, je suis freelance pentester, spécialisé dans la détection de failles de sécurité web pour protéger
-                vos données sensibles.
-            </p>
-        </div>
-    </section>
-
-    <!-- SKILLS SECTION -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Compétences</h2>
-            <div class="skill-lists">
-                <div class="skill">
-                    <h3>Développement Front-End</h3>
-                    <ul>
-                        <li>HTML5, CSS3, JavaScript (ES6+)</li>
-                        <li>React.js, Vue.js</li>
-                        <li>Responsive Design & Accessibilité (WCAG)</li>
-                    </ul>
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-preview">
+                    <a href="post/NBCTF24.html">
+                        <h2 class="post-title">
+                            My Journey in the NoBrackets CTF 2024
+                        </h2>
+                        <h3 class="post-subtitle">
+                            An unforgettable experience in one of the most exciting cybersecurity competitions I have ever done.
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="https://github.com/Akasha53">Akasha</a> on November 24, 2024</p>
                 </div>
-                <div class="skill">
-                    <h3>Pentesting</h3>
-                    <ul>
-                        <li>Tests de sécurité sur applications web</li>
-                        <li>Burp Suite, OWASP ZAP</li>
-                        <li>Analyse des vulnérabilités (OWASP Top 10)</li>
+                <hr>
+                <div class="post-preview">
+                    <a href="post/mic_issue.html">
+                        <h2 class="post-title">
+                            No more than 90 Microsoft Fixes !
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Microsoft Fixes 90 New Flaws, Including Actively Exploited NTLM and Task Scheduler Bugs
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="https://github.com/Akasha53">Akasha</a> on November 13, 2024</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post/excel-exploit.html">
+                        <h2 class="post-title">
+                            A new Excel Exploit ?!
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Cybercriminals Use Excel Exploit to Spread Fileless Remcos RAT Malware
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="https://github.com/Akasha53">Akasha</a> on November 11, 2024</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post/paloalto.html">
+                        <h2 class="post-title">
+                            Palo Alto Last News
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Palo Alto Advises Securing PAN-OS Interface Amid Potential RCE Threat Concerns
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="https://github.com/Akasha53">Akasha</a> on November 10, 2024</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post/NBCTF.html">
+                        <h2 class="post-title">
+                            The NoBracketCTF... a love story.
+                        </h2>
+                        <h3 class="post-subtitle">
+                            The NoBracketCTF is a Capture The Flag competition for students passionate about cybersecurity.
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="https://github.com/Akasha53">Akasha</a> on November 09, 2024</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post/CICTF.html">
+                        <h2 class="post-title">
+                            An high school student CTF ?!
+                        </h2>
+                        <h3 class="post-subtitle">
+                            A group of student, in which I'm involved, are creating a CTF.
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="https://github.com/Akasha53">Akasha</a> on November 03, 2024</p>
+                </div>
+                <!-- Pager -->
+                <!-- <ul class="pager">
+                    <li class="next">
+                        <a href="#">Older Posts &rarr;</a>
+                    </li>
+                </ul> -->
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
                     </ul>
+                    <p class="copyright text-muted">Copyright &copy; Akasha 2024</p>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- PORTFOLIO SECTION -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <h2 class="section-title">Mes Projets</h2>
-            <div class="projects">
-                <div class="project">
-                    <h3>Site e-commerce</h3>
-                    <p>Site e-commerce moderne avec React.js.</p>
-                    <a href="#" class="btn">Voir le Projet</a>
-                </div>
-                <div class="project">
-                    <h3>Dashboard Admin</h3>
-                    <p>Interface administrateur interactive (Vue.js).</p>
-                    <a href="#" class="btn">Voir le Projet</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <p>© 2024 Ton Nom. Tous droits réservés.</p>
     </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
 </body>
+
 </html>
