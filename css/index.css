@@ -38,7 +38,7 @@ h1, h2, h3 {
 .logo-img {
     height: 40px;
     margin-left: 10px;
-    border-radius: 50%; /* Arrondi du logo */
+    border-radius: 50%; /* Logo arrondi */
 }
 
 .nav-links {
