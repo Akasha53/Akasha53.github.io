@@ -38,6 +38,7 @@ h1, h2, h3 {
 .logo-img {
     height: 40px;
     margin-left: 10px;
+    border-radius: 50%; /* Arrondi du logo */
 }
 
 .nav-links {
@@ -51,10 +52,15 @@ h1, h2, h3 {
     font-weight: bold;
     font-size: 14px;
     transition: color 0.3s ease-in-out;
+    padding: 8px 16px;
+    border: 2px solid #333333; /* Bordure autour des boutons */
+    border-radius: 5px; /* Bordure arrondie */
+    display: inline-block;
 }
 
 .nav-links .btn:hover {
     color: #FF0000;
+    border-color: #FF0000; /* Bordure rouge au survol */
 }
 
 /* Hero Section */
@@ -72,6 +78,7 @@ h1, h2, h3 {
     font-size: 3rem;
     margin-bottom: 10px;
     text-transform: uppercase;
+    color: #FFFFFF; /* Titre en blanc */
 }
 
 .subtitle {
