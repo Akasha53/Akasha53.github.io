@@ -146,6 +146,7 @@ h1, h2, h3 {
 
 .skill-card a {
     text-decoration: none;
+    color: inherit; 
 }
 
 .skill-card p {
