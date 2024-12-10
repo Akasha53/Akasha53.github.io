@@ -102,6 +102,7 @@ h1, h2, h3 {
 
 /* Skills Section */
 .skills {
+    text-decoration: none;
     padding: 60px 0;
     text-align: center;
     background: #FFFFFF;
@@ -126,6 +127,7 @@ h1, h2, h3 {
 }
 
 .skill-card:hover {
+    text-decoration: none;
     transform: translateY(-5px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -143,6 +145,7 @@ h1, h2, h3 {
 }
 
 .skill-card p {
+    text-decoration: none;
     font-size: 0.9rem;
     color: #555555;
 }
