@@ -1,4 +1,3 @@
-/* Global Styles */
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -19,7 +18,6 @@ h1, h2, h3 {
     padding: 20px 0;
 }
 
-/* Navbar */
 .navbar {
     position: sticky;
     top: 0;
@@ -38,7 +36,7 @@ h1, h2, h3 {
 .logo-img {
     height: 40px;
     margin-left: 10px;
-    border-radius: 50%; /* Logo arrondi */
+    border-radius: 50%; 
 }
 
 .nav-links {
@@ -53,17 +51,16 @@ h1, h2, h3 {
     font-size: 14px;
     transition: color 0.3s ease-in-out;
     padding: 8px 16px;
-    border: 2px solid #333333; /* Bordure autour des boutons */
-    border-radius: 5px; /* Bordure arrondie */
+    border: 2px solid #333333; 
+    border-radius: 5px; 
     display: inline-block;
 }
 
 .nav-links .btn:hover {
     color: #FF0000;
-    border-color: #FF0000; /* Bordure rouge au survol */
+    border-color: #FF0000; 
 }
 
-/* Hero Section */
 .hero {
     height: 80vh;
     display: flex;
@@ -78,7 +75,7 @@ h1, h2, h3 {
     font-size: 3rem;
     margin-bottom: 10px;
     text-transform: uppercase;
-    color: #FFFFFF; /* Titre en blanc */
+    color: #FFFFFF;
 }
 
 .subtitle {
@@ -86,7 +83,6 @@ h1, h2, h3 {
     color: #DDDDDD;
 }
 
-/* About Section */
 .about {
     padding: 60px 0;
     text-align: center;
@@ -100,7 +96,6 @@ h1, h2, h3 {
     font-size: 1rem;
 }
 
-/* Skills Section */
 .skills {
     text-decoration: none;
     padding: 60px 0;
@@ -155,7 +150,6 @@ h1, h2, h3 {
     color: #555555;
 }
 
-/* Footer */
 .footer {
     text-align: center;
     padding: 20px 0;
