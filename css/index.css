@@ -153,8 +153,7 @@ h1, h2, h3 {
 .footer {
     text-align: center;
     padding: 20px 0;
-    background: #333333;
-    color: #FFFFFF;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(255, 0, 0, 0.7));
     font-size: 0.9rem;
 }
 
