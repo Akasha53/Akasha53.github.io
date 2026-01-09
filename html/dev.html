@@ -4,162 +4,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Akasha</title>
-    <link rel="stylesheet" href="../css/dev.css">
+    <title>Akasha - Développement Front-End</title>
     <link rel="icon" href="../img/image.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/dev2.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="../css/dev.css">
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="container">
-            <a hteff="https://akasha53.github.io/index.html">
-                <div class="logo">
-
-                    <img src="../img/image.jpeg" alt="Logo" class="logo-img">
-
-                </div>
+    <nav>
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <img src="../img/image.jpeg" alt="Logo" class="logo-img">
+                <span>Akasha</span>
             </a>
-            <div class="nav-links">
-                <a href="./blog.html" class="btn">Blog</a>
-                <a href="mailto:akasha@margot-groupe.com" class="btn">Contact</a>
-            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="mailto:akasha@margot-groupe.com">Contact</a></li>
+            </ul>
         </div>
     </nav>
 
-    <!-- HEADER -->
     <header class="hero">
-        <div class="container">
-            <h1 class="main-title"">Développeur Front-End</h1>
-            <p class=" subtitle">Créer, sécuriser et perfectionner vos interfaces</p>
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="main-title">Développeur</h1>
+            <h1 class="main-title">Front-End</h1>
+            <p class="subtitle">Créer, sécuriser et perfectionner vos interfaces</p>
         </div>
     </header>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Vertical Timeline</title>
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    </head>
-
-    <body style="background: whitesmoke;">
-        <section class="bg-gray-300 text-black" id="about" style="margin-bottom: 100px;">
-            <div class="container max-w-5xl mx-auto">
-                <div class="col-span-12">
-                    <div class="text-center md:gap-3 flex xl:mb-20 xl:gap-6 items-center flex-col justify-center sm:mb-14 mb-10 before:block before:w-32 before:h-2 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-secondary"
-                        id="experience">
-                        <h3 class="text-3xl md:text-4xl font-bold">Experience</h3><a style="text-decoration: none;"
-                            href="/pdf/cv_akasha.pdf" download=""
-                            class="resume-button md:text-lg justify-center p-2 mt-4 sm:p-3 rounded-xl flex items-center gap-2 bg-primary text-white">
-                            <div class="svg-wrapper-1">
-                                <div class="svg-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                        fill="currentColor" class="w-6 h-6">
-                                        <path fill-rule="evenodd"
-                                            d="M12 2a1 1 0 011 1v12.586l3.293-3.293a1 1 0 011.414 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 011.414-1.414L11 15.586V3a1 1 0 011-1z"
-                                            clip-rule="evenodd"></path>
-                                        <path fill-rule="evenodd" d="M4 18a1 1 0 011-1h14a1 1 0 110 2H5a1 1 0 01-1-1z"
-                                            clip-rule="evenodd"></path>
-                                    </svg></div>
-                            </div><span>Download Resume</span>
+    <section class="section" id="projects">
+        <h2 class="section-title">Mes Projets</h2>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card p-0 overflow-hidden h-100">
+                        <a href="projet1.html" class="text-decoration-none">
+                            <div class="project-image">
+                                <img src="../img/projet1.png" alt="TechFlow"
+                                    onerror="this.parentElement.innerHTML='TechFlow'">
+                            </div>
+                            <div class="project-info p-4">
+                                <h3>TechFlow</h3>
+                                <p>Site vitrine pour une entreprise d'informatique.</p>
+                                <div class="project-tags">
+                                    <span class="tag">HTML</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">Bootstrap 5</span>
+                                    <span class="tag">Font Awesome</span>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
-                <div class="grid gap-4">
-
-                    <div class="relative sm:!col-start-4 col-span-12 space-y-6 sm:col-span-9">
-                        <div
-                            class="col-span-12 space-y-12 relative sm:space-y-16 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-6 before:bg-black">
-                            <div data-hs="fade up" data-hs-size="large" data-hs-speed="slow" class="hs-visible">
-                                <div class="" style=""><!--[-->
-                                    <div
-                                        class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-55px] sm:before:z-[1] before:bg-tertiary">
-                                        <h3 class="text-xl md:text-2xl font-semibold tracking-wide"> Web Developer
-                                        </h3><time class="text-xs md:text-sm tracking-wide uppercase">Aug 2024 -
-                                            Present</time>
-                                        <p class="mt-3 md:text-lg">Je renforçais ma compréhension de la sécurité des
-                                            sites web, en apprenant comment les sécuriser correctement, par exemple en
-                                            protégeant contre les failles courantes identifiées par l'OWASP (Open Web
-                                            Application Security Project). J'ai étudié des techniques pour prévenir les
-                                            vulnérabilités telles que les injections SQL, les attaques XSS (Cross-Site
-                                            Scripting), ainsi que la gestion sécurisée des sessions et des mots de
-                                            passe. Ces connaissances m'ont permis d'assurer une meilleure protection des
-                                            données des utilisateurs et de garantir l'intégrité des sites.</p>
-                                    </div><!--]-->
+                <div class="col-md-6">
+                    <div class="card p-0 overflow-hidden h-100">
+                        <a href="projet2.html" class="text-decoration-none">
+                            <div class="project-image">
+                                <img src="../img/projet2.png" alt="Analytic"
+                                    onerror="this.parentElement.innerHTML='Analytic'">
+                            </div>
+                            <div class="project-info p-4">
+                                <h3>Analytic</h3>
+                                <p>Dashboard d'analyse de données avec graphiques dynamiques.</p>
+                                <div class="project-tags">
+                                    <span class="tag">HTML</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">Bootstrap 5</span>
+                                    <span class="tag">Chart.js</span>
+                                    <span class="tag">Font Awesome</span>
                                 </div>
                             </div>
-                            <div data-hs="fade up" data-hs-size="large" data-hs-speed="slow" class="">
-                                <div class="" style=""><!--[-->
-                                    <div
-                                        class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-55px] sm:before:z-[1] before:bg-tertiary">
-                                        <h3 class="text-xl md:text-2xl font-semibold tracking-wide"> Frontend Developer
-                                             </h3><time class="text-xs md:text-sm tracking-wide uppercase">Jul
-                                            2024 - Aug 2024</time>
-                                        <p class="mt-3 md:text-lg"> Pendant mes vacances d'été, j'ai créé des sites web
-                                            pour plusieurs clients, tant pour des entreprises que pour des particuliers.
-                                            Ces projets m'ont permis de développer mes compétences en conception web et
-                                            de répondre à des besoins variés, en créant des sites fonctionnels et
-                                            adaptés aux attentes de chaque client. J'ai également appris à utiliser
-                                            React pour construire des interfaces utilisateur dynamiques et Bootstrap
-                                            pour améliorer l'esthétique et la réactivité des sites.
-                                        </p>
-                                    </div><!--]-->
-                                </div>
-                            </div>
-                            <div data-hs="fade up" data-hs-size="large" data-hs-speed="slow" class="">
-                                <div class="" style=""><!--[-->
-                                    <div
-                                        class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-55px] sm:before:z-[1] before:bg-tertiary">
-                                        <h3 class="text-xl md:text-2xl font-semibold tracking-wide"> Junior Web Wizard </h3><time
-                                            class="text-xs md:text-sm tracking-wide uppercase">DEC 2023</time>
-                                        <p class="mt-3 md:text-lg"> Mon parcours en développement web a commencé par
-                                            l'apprentissage des langages HTML, CSS et JavaScript. J'ai commencé par
-                                            créer de petits projets afin de maîtriser les bases du développement web et
-                                            de comprendre comment structurer et styliser des pages web, tout en
-                                            découvrant les fondamentaux de la programmation côté client. </p>
-                                    </div><!--]-->
-                                </div>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Bootstrap JS and Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+    <section class="section" id="experience">
+        <h2 class="section-title">Expérience</h2>
 
-</html>
+        <div class="text-center mb-5">
+            <a href="../pdf/cv_akasha.pdf" download class="resume-button">
+                <i class="fas fa-download"></i> Download Resume
+            </a>
+        </div>
 
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card h-100">
+                        <h3>Web Developer</h3>
+                        <div class="mb-3">
+                            <span class="badge bg-danger">Août 2024 - Présent</span>
+                        </div>
+                        <p>Focus sur la sécurité web (OWASP), protection contre les injections SQL et failles XSS.</p>
+                    </div>
+                </div>
 
+                <div class="col-lg-4">
+                    <div class="card h-100">
+                        <h3>Frontend Developer</h3>
+                        <div class="mb-3">
+                            <span class="badge bg-danger">Juil 2024 - Août 2024</span>
+                        </div>
+                        <p>Création de sites dynamiques avec React et Bootstrap pour divers clients.</p>
+                    </div>
+                </div>
 
+                <div class="col-lg-4">
+                    <div class="card h-100">
+                        <h3>Junior Web Programmer</h3>
+                        <div class="mb-3">
+                            <span class="badge bg-danger">Déc 2023</span>
+                        </div>
+                        <p>Apprentissage HTML, CSS, JS et réalisation de premiers projets structurés.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <footer>
+        <div class="social-links">
+            <a href="https://discord.com/users/1059144378892951643" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="https://github.com/Akasha53" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <p>Copyright &copy; Tous droits réservés Akasha 2024-2025</p>
+    </footer>
 
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
 
-<!-- FOOTER -->
-<footer class="footer">
-    <div class="social-icons">
-        <a href="https://discord.com/users/1059144378892951643" aria-label="discord" target="_blank"
-            class="social-icon discord">
-            <svg width="32" height="32" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z">
-                </path>
-            </svg>
-        </a>
-        <a href="https://github.com/Akasha53" aria-label="github" target="_blank" class="social-icon github">
-            <svg width="32" height="32" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
-                </path>
-            </svg>
-        </a>
-    </div>
-
-    <p>Copyright &copy; Tous droits réservés Akasha 2024-2025</p>
-</footer>
+        document.querySelectorAll('.card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'all 0.5s ease-out';
+            observer.observe(card);
+        });
+    </script>
 </body>
 
 </html>
